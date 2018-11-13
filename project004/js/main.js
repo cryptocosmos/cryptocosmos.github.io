@@ -19,12 +19,12 @@ const _ZERO_BN = new Eth.BN(0, 10);
 /* contract constants */
 /* todo: pull these from the contract */
 /* todo: move these into some kind of contract helper class */
-const _BLOCKS_PER_READJUSTMENT = 12;
-const _CONTRACT_ADDRESS = "0x1bcc15fe3ba91365de44c5ee4cecb4861857c9cb";
+const _BLOCKS_PER_READJUSTMENT = 15;
+const _CONTRACT_ADDRESS = "0xe34b6ac0f2d75a46c470de79f13c827edda89e04";
 const _MINT_TOPIC = "0xcf6fbb9dcea7d07263ab4f5c3a92f53af33dffc421d9d121e1c74b307e68189d";
 const _MAXIMUM_TARGET_STR = "27606985387162255149739023449108101809804435888681546220650096895197184";  // 2**234
 const _MINIMUM_TARGET = 2**16;
-const _ETH_BLOCKS_PER_REWARD = 8;
+const _ETH_BLOCKS_PER_REWARD = 12;
 /* calculated contract values */
 const _MAXIMUM_TARGET_BN = new Eth.BN(_MAXIMUM_TARGET_STR, 10);
 const _MINIMUM_TARGET_BN = new Eth.BN(_MINIMUM_TARGET);
